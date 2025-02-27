@@ -1,0 +1,23 @@
+assessment.register:
+  path: '/register'
+  defaults:
+    _form: '\Drupal\assessment\Form\RegistrationForm'
+    _title: 'Register'
+  requirements:
+    _permission: 'access content'
+
+assessment.login:
+  path: '/login'
+  defaults:
+    _form: '\Drupal\assessment\Form\LoginForm'
+    _title: 'Login'
+  requirements:
+    _permission: 'access content'
+
+assessment.assessment_form:
+  path: '/assessment'
+  defaults:
+    _form: '\Drupal\assessment\Form\AssessmentForm'
+    _title: 'Assessment'
+  requirements:
+    _user_is_logged_in: TRUE

@@ -1,0 +1,6 @@
+services:
+  assessment.registration_form:
+    class: Drupal\assessment\Form\RegistrationForm
+    arguments: []
+    tags:
+      - { name: form, id: assessment_registration_form }

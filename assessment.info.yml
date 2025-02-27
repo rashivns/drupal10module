@@ -1,0 +1,10 @@
+name: 'Assessment Module'
+type: module
+description: 'Handles user registration, login, and assessments.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:user
+  - drupal:system
+  - drupal:field
+  - drupal:node

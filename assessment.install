@@ -1,0 +1,3 @@
+function assessment_install() {
+    \Drupal::messenger()->addMessage('Assessment module installed successfully.');
+}
